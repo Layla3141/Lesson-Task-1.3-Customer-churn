@@ -1,0 +1,14 @@
+project/
+│
+├── data/
+│ └── dataset.csv
+│
+├── notebooks/
+│ └── my_experiment.ipynb
+│
+├── models/
+│ └── model.py
+│
+├── README.md
+├── decision_log.txt
+└── requirements.txt
