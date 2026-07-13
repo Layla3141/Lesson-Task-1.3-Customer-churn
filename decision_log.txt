@@ -1,1 +1,36 @@
+## Design Decision 1
+
+Decision:
+Logistic Regression was selected as the main example model.
+
+Reason:
+It is simple, commonly used for classification, and easy for students to understand.
+
+Evidence:
+The model can be trained quickly and provides a clear example of a complete machine learning workflow.
+
+
+## Design Decision 2
+
+Decision:
+Categorical features were encoded using one-hot encoding.
+
+Reason:
+The dataset contains several text-based categories such as contract type and payment method.
+
+Evidence:
+Scikit-learn models require numeric input, so encoding was needed before training.
+
+
+## Design Decision 3
+
+Decision:
+Accuracy was used as the main evaluation metric for this example.
+
+Reason:
+This is a beginner-friendly lesson task and accuracy is easy to interpret.
+
+Evidence:
+The task focuses on documentation and reproducibility, so a simple metric was appropriate.
+
 
